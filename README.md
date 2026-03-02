@@ -16,7 +16,41 @@ US Air Transportation Network
 Western States Power Grid
 C. elegans Neural Network
 **python src/dataset_loader.py --dataset cora**
+**Data Preprocessing Pipeline**
+1. Graph Representation
+Load node list and edge list.
+Construct undirected graph G=(V,E).
+Remove self-loops and duplicate edges.
+2. Feature Matrix Preparation
+3. Train/Test Split
+4. Attributed Embedding Generation
+5. Structural Embedding Generation
+6. Hierarchical Fusion
+7. Edge Embedding Generation
+8. LSTM Input
+9. Model Training
+    **python train.py --dataset cora**
+
+UnifiedAttri2Vec-LSTM/
+│
+├── data/
+│   ├── cora/
+│   ├── citeseer/
+│   ├── pubmed/
+│   └── processed/
+│
+├── preprocessing/
+│   └── preprocess.py
+│
+├── models/
+│   ├── attri2vec.py
+│   ├── fusion.py
+│   └── lstm_classifier.py
+│
+├── train.py
+├── evaluate.py
+├── utils.py
+└── README.md
 
 
-To prepare datasets:
 
