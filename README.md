@@ -5,6 +5,7 @@ This repository provides the official implementation of the UnifiedAttri2Vec-LST
 git clone https://github.com/Fatima-Ziya/UnifiedAttri2veccode
 cd UnifiedAttri2Vec-LSTM
 pip install -r requirements.txt
+**NOTE: *At this stage, our manuscript is under review in Chaos. The implementation code is currently maintained in a private repository to ensure confidentiality during the peer-review process. Upon receiving the final editorial decision, we will release the complete source code to a public repository to support transparency, reproducibility, and further research.*
 **Dataset Preparation**Example
 Datasets used in the paper:
 Cora
